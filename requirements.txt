@@ -1,5 +1,6 @@
 wheel
 pandas
 numpy
+wordcloud
 streamlit
 aitextgen
