@@ -18,5 +18,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run:
-            git fetch --all
+            git lfs fetch --all
             git push --force https://saikumarmk:$HF_TOKEN@huggingface.co/spaces/saikumarmk/project-maidenless main
