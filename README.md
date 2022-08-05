@@ -1,3 +1,13 @@
+---
+title: Project Maidenless
+emoji: 🔥
+colorFrom: orange
+colorTo: gray
+sdk: streamlit
+app_file: src/Project_Maidenless.py
+pinned: false
+---
+
 <div id="top"></div>
 
 
