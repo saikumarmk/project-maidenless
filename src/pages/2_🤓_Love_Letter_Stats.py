@@ -12,4 +12,4 @@ with st.sidebar:
     st.selectbox("University",("Monash","Melbourne"))
 
 
-st.metric(label="Bitches",value="0",delta="-100")
+st.markdown("Coming soon.")
