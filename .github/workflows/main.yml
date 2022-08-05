@@ -17,4 +17,6 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://saikumarmk:$HF_TOKEN@huggingface.co/spaces/saikumarmk/project-maidenless main
+        run:
+            git fetch --all
+            git push --force https://saikumarmk:$HF_TOKEN@huggingface.co/spaces/saikumarmk/project-maidenless main
