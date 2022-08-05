@@ -4,6 +4,7 @@ emoji: 🔥
 colorFrom: orange
 colorTo: gray
 sdk: streamlit
+python_version: 3.10.1
 app_file: src/Project_Maidenless.py
 pinned: false
 ---
